@@ -52,6 +52,14 @@ label {
     color: #CCCCCC;
 }
 
+#fondo1:checked ~ table .t1e {
+    border: 1px solid black;
+    padding: 8px;
+}
+#fondo2:checked ~ table .t1e {
+    border: 1px solid white;
+    padding: 8px;
+}
 h2.primerPRR {
     color: red;
     font-size: 30px;
@@ -61,3 +69,4 @@ h3.primerPRR {
     color:blue;
     font-size: 25px;
 }
+
