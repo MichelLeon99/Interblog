@@ -38,7 +38,7 @@ p.primerPRR {
 label {
     display: inline-block;
     padding: 5px 10px;
-    background-color: gray;
+    background-color: rgb(255, 187, 0);
     color: #fff;
     cursor: pointer;
 }
@@ -48,6 +48,16 @@ label {
 }
 
 #fondo2:checked ~ .primerPRR {
-    background-color:gray;
-    color: white;
+    background-color: #000000;
+    color: #CCCCCC;
+}
+
+h2.primerPRR {
+    color: red;
+    font-size: 30px;
+}
+
+h3.primerPRR {
+    color:blue;
+    font-size: 25px;
 }
