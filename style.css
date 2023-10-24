@@ -38,16 +38,16 @@ p.primerPRR {
 label {
     display: inline-block;
     padding: 5px 10px;
-    background-color: gold;
+    background-color: gray;
     color: #fff;
     cursor: pointer;
 }
 
 #fondo1:checked ~ .primerPRR {
-    background-color: white;
+    background-color: black;
 }
 
 #fondo2:checked ~ .primerPRR {
-    background-color: black;
+    background-color:red;
     color: white;
 }
