@@ -44,10 +44,10 @@ label {
 }
 
 #fondo1:checked ~ .primerPRR {
-    background-color: black;
+    background-color: white;
 }
 
 #fondo2:checked ~ .primerPRR {
-    background-color:red;
+    background-color:gray;
     color: white;
 }
