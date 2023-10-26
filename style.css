@@ -70,3 +70,36 @@ h3.primerPRR {
     font-size: 25px;
 }
 
+.like {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;   
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.like:active {
+    background-color: green;
+}
+
+.unlike {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;   
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.unlike:active {
+    background-color: blue;
+}
+
+#comentario {
+    border-style: outset red 10px 10px;
+}
+
+
